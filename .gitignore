@@ -1,0 +1,73 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+*.env
+.venv/
+venv/
+env/
+
+# Package/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pyre/
+.mypy_cache/
+.pytype/
+.coverage
+coverage.xml
+htmlcov/
+
+# Testing
+.pytest_cache/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# RAG project data
+cache/
+checkpoints/
+models/
+index/
+retriever_cache/
+
+# Notebooks outputs
+notebooks/**/outputs/
+notebooks/**/.ipynb_checkpoints/
+
+# Docs
+docs/_build/
+
+# Node (if using frontend)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Docker
+*.pid
+*.sock
+
+# Optional: keep example data
+!data/README.md
+!datasets/README.md
