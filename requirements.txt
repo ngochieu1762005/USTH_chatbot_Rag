@@ -9,9 +9,6 @@ sentence-transformers
 langchain-huggingface
 langchain-google-genai
 langchain-chroma
-langchain-openai
-
-google-generativeai
 # PDF loading
 pypdf
 
